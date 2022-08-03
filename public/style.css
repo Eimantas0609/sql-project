@@ -79,3 +79,22 @@ section>div {
  p {
    color: rgb(48 241 12);
  }
+
+ .note {
+   position: relative;
+   display: flex;
+   align-items: center;
+}
+
+.note>.buttons {
+   position: absolute;
+   top: 4px;
+   right: 4px;
+}
+.note>.buttons .fa-pen {
+   background-color: #ddf;
+   color:#052020;
+   font-size: 0.7em;
+   padding: 0.3em;
+   border-radius: 50px;
+}
