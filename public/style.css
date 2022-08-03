@@ -1,3 +1,81 @@
-*{
-   color: rgb(109, 47, 255);
+body {
+   background-color: cadetblue;
+   color: rgb(103, 228, 130);
 }
+
+hr {
+   border-width: 0;
+   border-bottom-width: 2px;
+   border-color: cornsilk;
+   border-style: solid;
+}
+
+#title-container {
+   width: 100%;
+}
+
+h1 {
+   font-size: 3em;
+   margin-right: 10px;
+   margin-bottom: 10px;
+  
+}
+
+main {
+   margin: 20px 10px;
+}
+
+form {
+   display: flex;
+   justify-content: center;
+   gap: 8px;
+}
+
+#note-input input {
+   flex-grow: 2;
+   background-color: #61d32c;
+   color: rgb(238, 242, 244);
+   font-size: 1.2em;
+   border: 0;
+   border-radius: 8px;
+   box-shadow: rgb(226, 222, 215) 0 0 4px 2px;
+   padding:16px;
+   max-width: 500px;
+}
+
+#note-input button {
+   background-color: cyan;
+   width: 80px;
+   border: 0;
+   border-radius: 10px;
+   box-shadow: rgba(230, 71, 74, 0.868) 0 0 5px 1px;
+}
+
+#note-input button:hover {
+   background-color: rgb(31, 140, 171);
+}
+
+section {
+   margin-top: 1em;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+section>div {
+   width: 37em;
+   background-color: darkslategrey;
+   box-shadow: aqua 0 0 8px 3px;
+   padding: 16px;
+   border-radius: 8px;
+}
+
+#title-container {
+   display: flex;
+   justify-content: center;
+}
+ p {
+   color: rgb(48 241 12);
+ }
